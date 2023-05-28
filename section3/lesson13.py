@@ -1,0 +1,15 @@
+s = 'My name is hisashi. Hi hisashi.'
+print(s)
+is_start = s.startswith('My')
+print(is_start)
+is_start = s.startswith('X')
+print(is_start)
+
+print(s.find('hisashi'))
+print(s.rfind('hisashi'))
+print(s.count('hisashi'))
+print(s.capitalize())
+print(s.title())
+print(s.upper())
+print(s.lower())
+print(s.replace('hisashi', 'test'))
